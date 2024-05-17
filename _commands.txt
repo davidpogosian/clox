@@ -1,0 +1,12 @@
+
+
+
+
+gcc main.c chunk.c memory.c debug.c value.c vm.c compiler.c scanner.c object.c table.c -o ./bin/main.exe
+
+./bin/main.exe ./_script.x
+
+
+
+This program hangs the executable:
+"skibidi" + " " + "toilet"
